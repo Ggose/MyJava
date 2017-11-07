@@ -1,0 +1,40 @@
+package p02_inherits;
+
+public class Car {
+	   int a = 7;// 탑승인원
+
+	   // 메소드
+	   void move() {
+	      System.out.println("이동한다");
+	   }
+	}
+
+	class Bus extends Car {
+	   int a = 26;
+
+	   void move() {
+	      System.out.println(a + "명을 태우고 이동한다.");
+	   }
+
+	}
+
+	class Ambulance extends Car {
+	   int a = 10;
+
+	   void move() {
+	      System.out.println("사이렌을 울리면서 이동한다.");
+	   }
+
+	   void special() {
+	      System.out.println("환자를 태우고 이동한다.");
+	   }
+	}
+
+	class FireEngine extends Car {
+	   int a = 11;// 재정의
+
+	   void move() {
+	      System.out.println("물을 뿌리면서 이동한다");
+	   }
+
+	}
