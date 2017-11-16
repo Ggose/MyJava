@@ -1,4 +1,4 @@
-package test;
+package test1114;
 import java.util.Scanner;
 /**
  * 회원가입 

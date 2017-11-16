@@ -21,7 +21,6 @@ public class SimpleDateFormatExample {
 		System.out.println(sdf.format(now));
 		
 		sdf = new SimpleDateFormat("오늘은 올해의 D번째 날");
-		int result =365;
 		
 		System.out.println(sdf.format(now));
 		

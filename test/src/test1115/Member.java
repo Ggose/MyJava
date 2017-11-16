@@ -1,4 +1,4 @@
-package test1114;
+package test1115;
 
 public class Member {
  //필드
@@ -6,10 +6,10 @@ public class Member {
 	private String name;
 	private String password;
 	//생성자
-	public Member(String id, String name, String password) {
+	public Member(String id, String password,String name) {
 		this.id = id;
-		this.name = name;
 		this.password = password;
+		this.name = name;
 	}
 	//메소드
 	public String getId() {
